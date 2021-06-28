@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Start Header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Certificate & online Programs for 2021</h1>
+    </section>
+<!-- End Header -->
+<!--------blog page content---------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="image/certificate.jpg">
+            <h1>Certificate & online Programs for 2021</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nostrum in est temporibus mollitia reiciendis culpa sapiente amet praesentium! Reprehenderit id ipsa ullam quaerat temporibus quidem excepturi similique eaque sint?</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nostrum in est temporibus mollitia reiciendis culpa sapiente amet praesentium! Reprehenderit id ipsa ullam quaerat temporibus quidem excepturi similique eaque sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, vitae quidem. Dolorum non sit sunt hic et sed fuga doloribus praesentium accusantium, tempora harum aut unde, molestiae animi odit debitis.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nostrum in est temporibus mollitia reiciendis culpa sapiente amet praesentium! Reprehenderit id ipsa ullam quaerat temporibus quidem excepturi similique eaque sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam dignissimos libero, laudantium harum quidem, modi, dolor eaque maiores rem accusantium! Numquam ut vero molestias commodi voluptates ab, aliquid suscipit?</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nostrum in est temporibus mollitia reiciendis culpa sapiente amet praesentium! Reprehenderit id ipsa ullam quaerat temporibus quidem excepturi similique eaque sint?</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nostrum in est temporibus mollitia reiciendis culpa sapiente amet praesentium! Reprehenderit id ipsa ullam quaerat temporibus quidem excepturi similique eaque sint?</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--------blog page content---------->
+
+<!-------Footer------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Porro, harum perspiciatis! Esse cumque<br> maiores animi, veritatis, vel corporis culpa rem quidem cupiditate hic totam cum</p>
+         <div class="icons">
+            <i class="fab fa-facebook"></i>
+             <i class="fab fa-twitter"></i>
+             <i class="fab fa-instagram"></i>
+             <i class="fab fa-linkedin"></i>
+         </div>
+         <p>Made With <i class="far fa-heart"></i>by Easy Tutorials</p>
+</section>
+<!-------Footer------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            'use strict';
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            'use strict';
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
